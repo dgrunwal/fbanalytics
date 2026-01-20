@@ -1,0 +1,11 @@
+[1] "\n=== Summary Statistics ==="
+> print(paste("Total QBs analyzed:", nrow(qb_clean)))
+[1] "Total QBs analyzed: 75"
+> print(paste("Average Completions:", round(mean(qb_clean$CMP), 2)))
+[1] "Average Completions: 149.41"
+> print(paste("Median Completions:", median(qb_clean$CMP)))
+[1] "Median Completions: 110"
+> print(paste("Top QB Completions:", max(qb_clean$CMP)))
+[1] "Top QB Completions: 404"
+> print(paste("Lowest QB Completions:", min(qb_clean$CMP)))
+[1] "Lowest QB Completions: 1"
